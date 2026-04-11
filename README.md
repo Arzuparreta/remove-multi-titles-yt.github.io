@@ -1,1 +1,1 @@
-https://remove-multi-titles-yt.github.io
+<https://aruparreta.github.io/remove-multi-titles-yt.github.io>
