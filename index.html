@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Browser extension that restores the real YouTube video title when A/B tests show alternate titles. For Chrome and Firefox." />
-  <title>Remove Multi-Titles — YouTube</title>
+  <meta name="description" content="Browser extension that restores the real YouTube video title and thumbnail when A/B tests show alternate variants. For Chrome and Firefox." />
+  <title>Remove A/B Testing YouTube</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet"/>
@@ -162,9 +162,9 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      background: var(--accent-soft);
-      border: 1px solid rgba(255, 59, 74, 0.22);
-      color: #ff6b78;
+      background: rgba(34, 197, 94, 0.14);
+      border: 1px solid rgba(34, 197, 94, 0.22);
+      color: #4ade80;
       font-size: 0.72rem;
       font-weight: 600;
       letter-spacing: 0.12em;
@@ -414,9 +414,9 @@
 
   <header>
     <div class="container header-inner">
-      <a class="logo" href="./" aria-label="Remove Multi-Titles — home">
+      <a class="logo" href="./" aria-label="Remove A/B Testing YouTube — home">
         <span class="logo-mark" aria-hidden="true">YT</span>
-        <span>Remove Multi-Titles</span>
+        <span>Remove A/B Testing YouTube</span>
       </a>
       <nav class="header-links" aria-label="External links">
         <a href="https://github.com/Arzuparreta/remove-multi-titles-yt.github.io" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -431,8 +431,8 @@
       </svg>
       Free &middot; open source
     </div>
-    <h1>Remove <em>multi-titles</em> on YouTube</h1>
-    <p class="hero-lead">YouTube sometimes A/B tests different titles on the same video. This extension shows the original title from the page, so you are not stuck with whatever variant the algorithm picked.</p>
+    <h1>Stop <em>A/B testing</em> on YouTube</h1>
+    <p class="hero-lead">YouTube sometimes A/B tests different titles and thumbnails on the same video. This extension shows the original title and thumbnail from the page, so you are not stuck with whatever variant the algorithm picked.</p>
 
     <div class="store-buttons">
       <a class="store-btn store-btn--chrome" href="https://chromewebstore.google.com/detail/remove-multi-titles-youtu/gahcfhkfmbmfbmchbcepecigldgokkif" target="_blank" rel="noopener noreferrer">
@@ -459,7 +459,7 @@
       </a>
     </div>
 
-    <p class="hero-meta">Works on youtube.com &middot; No accounts &middot; No network calls for titles</p>
+    <p class="hero-meta">Works on youtube.com &middot; No accounts &middot; No network calls for titles or thumbnails</p>
   </section>
 
   <div class="divider"></div>
@@ -468,7 +468,7 @@
     <div class="container">
       <div class="section-head">
         <h2 id="features-heading">Why use it</h2>
-        <p>One job, done in the page: show the title YouTube embedded in the document, not the headline experiment.</p>
+        <p>One job, done in the page: show the title and thumbnail YouTube embedded in the document, not the headline experiment.</p>
       </div>
       <div class="cards-grid">
         <article class="card">
@@ -479,8 +479,8 @@
               <path d="M8 7h8"/><path d="M8 11h6"/>
             </svg>
           </div>
-          <h3>Consistent titles</h3>
-          <p>See the original title from the page metadata instead of an alternate A/B label.</p>
+          <h3>Consistent titles & thumbnails</h3>
+          <p>See the original title and thumbnail from the page metadata instead of alternate A/B variants.</p>
         </article>
         <article class="card">
           <div class="card-icon">
@@ -489,7 +489,7 @@
             </svg>
           </div>
           <h3>Lightweight</h3>
-          <p>DOM updates only. No heavy background work and no extra requests for the title.</p>
+          <p>DOM updates only. No heavy background work and no extra requests for titles or thumbnails.</p>
         </article>
         <article class="card">
           <div class="card-icon">
@@ -527,7 +527,7 @@
         <article class="card step">
           <div class="card-icon">3</div>
           <h3>Done</h3>
-          <p>Titles update to reflect the source the extension reads from the page.</p>
+          <p>Titles and thumbnails update to reflect the source the extension reads from the page.</p>
         </article>
       </div>
     </div>
@@ -536,7 +536,7 @@
   <div class="divider"></div>
 
   <footer>
-    <p>&copy; 2026 Remove Multi-Titles &mdash; <a href="https://github.com/Arzuparreta/remove-multi-titles-yt.github.io" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
+    <p>&copy; 2026 Remove A/B Testing YouTube &mdash; <a href="https://github.com/Arzuparreta/remove-multi-titles-yt.github.io" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
   </footer>
 
 </body>
